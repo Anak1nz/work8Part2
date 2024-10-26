@@ -39,8 +39,8 @@
             this.txtMax = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.lblArray = new System.Windows.Forms.Label();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.lblResult = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -109,7 +109,6 @@
             // 
             // txtN
             // 
-            this.txtN.Enabled = false;
             this.txtN.Location = new System.Drawing.Point(152, 34);
             this.txtN.Name = "txtN";
             this.txtN.Size = new System.Drawing.Size(100, 20);
@@ -156,6 +155,14 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Исходный массив";
             // 
+            // lblArray
+            // 
+            this.lblArray.AutoSize = true;
+            this.lblArray.Location = new System.Drawing.Point(29, 41);
+            this.lblArray.Name = "lblArray";
+            this.lblArray.Size = new System.Drawing.Size(0, 13);
+            this.lblArray.TabIndex = 0;
+            // 
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.lblResult);
@@ -165,14 +172,6 @@
             this.groupBox3.TabIndex = 13;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Преобразованный массив";
-            // 
-            // lblArray
-            // 
-            this.lblArray.AutoSize = true;
-            this.lblArray.Location = new System.Drawing.Point(29, 41);
-            this.lblArray.Name = "lblArray";
-            this.lblArray.Size = new System.Drawing.Size(0, 13);
-            this.lblArray.TabIndex = 0;
             // 
             // lblResult
             // 
